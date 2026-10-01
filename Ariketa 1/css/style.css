@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  
+}
+
+body{
+background-color: #F1E7DD;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.logo img{
+    height: 90px;
+    width: auto;
+}
+
+header form input{
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.sakia img{
+height: 70px;
+width: auto;
+}
+
+.nabigazioa{
+    flex-basis: 100%;
+}
+
+.nabigazioa ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E1800;
+    border-radius: 150px;
+}
+
+.nabigazioa li{
+    padding: 10px;
+}
+
+.nabigazioa li:hover{
+    background-color: #C2A17B;
+}
+
+.nabigazioa a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#F1E7DD
+}
+
+.nabigazioa a:hover{
+    color: black;
+    background-color: #C2A17B;
+}
+
+section {
+    text-align: justify;
+    margin: 10px;
+}
+
+
+.container {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container h2 {
+    flex-basis: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.container p {
+    flex: 1;
+}
+
+.container img {
+    height: 220px;
+    width: auto;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.Plista {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Plista h2 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.Plista ol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.Plista li {
+    padding: 10px;
+    background-color: #C2A17B;
+    border-radius: 10px;
+}
+
+.Plista li:first-child {
+    background-color: #ebc187;
+    color: black;
+}
+
+.Plista li:last-child {
+    background-color: #D6B98C;
+    color: black;
+}
+
+
+
+footer{
+    background-color: #3E1800;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.sareak img{
+    height: 40px;
+    flex-direction: column;
+}

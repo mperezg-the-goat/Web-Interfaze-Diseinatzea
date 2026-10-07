@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo{
+    background-color: palevioletred;
+    margin-left: 20px;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    background-color: orangered;
+    margin-right: 20px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+  background-color: #8fb5c2;
+}
+
+main {
+  width: 90%;
+  max-width: 527px;
+
+  margin: 75px auto 0;
+  padding: 15px;
+}
+
+
+/* =========================
+   POSTS
+========================= */
+
+.contet {
+  background-color: #a9db2b;
+
+  padding: 16px;
+  margin-bottom: 15px;
+}
+
+.contet:last-child {
+  margin-bottom: 0;
+}
+
+.contet > h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+
+  margin-bottom: 15px;
+}
+
+
+/* =========================
+   ARTICLE
+========================= */
+
+article {
+  display: flex;
+  gap: 18px;
+  align-items: stretch;
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+aside {
+  background-color: #8db329;
+
+  width: 100px;
+  min-width: 100px;
+  height: 115px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 14px;
+}
+
+aside h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+
+/* =========================
+   TEXTO
+========================= */
+
+article p {
+  background-color: #718d1c;
+
+  flex: 1;
+
+  padding: 14px;
+
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.15;
+}

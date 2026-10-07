@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 40px;
+    background-color: orange;
+}
+
+aside{
+    height: 250px;
+    width: 185px;
+    float: left;
+    background-color: rgb(211, 160, 83);
+}
+
+main{
+    color: aliceblue;
+    font-weight: bold;
+    height: 250px;
+    background-color: rgb(6, 72, 170);
+}
+
+footer{
+    height: 40px;
+    clear: both;
+    background-color: rgb(43, 190, 43);
+}

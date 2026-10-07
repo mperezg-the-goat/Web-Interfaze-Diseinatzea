@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: pink;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.nav{
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+aside{
+    background-color: chocolate;
+    align-self: stretch;
+    width: 185px;
+}
+
+main{
+    background-color: rgb(33, 95, 167);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.sub_container , .sub_container2{
+    background-color: rgb(30, 30, 68);
+    height: 150px;
+    width: 500px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.sub_container2{
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 30px;
+    clear: both;
+    background-color: greenyellow;
+
+}

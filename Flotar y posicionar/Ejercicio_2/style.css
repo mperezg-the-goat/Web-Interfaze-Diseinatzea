@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: pink;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.nav{
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+aside{
+    background-color: chocolate;
+    height: 300px;
+    width: 185px;
+    float: left;
+}
+
+main{
+    background-color: blue;
+    height: 300px;
+    color: aliceblue;
+    font-weight: bolder;
+
+}
+
+footer{
+    height: 30px;
+    clear: both;
+    background-color: greenyellow;
+
+}
